@@ -1,0 +1,15 @@
+default:
+  audience: developer
+  project: yandex
+  
+google:
+  project: google
+  audience: platform
+
+yandex:
+  audience: platform
+  project: yandex
+
+manager:
+  audience: manager
+  project: yandex

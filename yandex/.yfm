@@ -1,0 +1,9 @@
+langs: ['ru','en']
+apply-presets: "true"
+varsPreset: "yandex"
+allowHTML: "true"
+
+docs-viewer:
+  langs: ['ru','en']
+  embed:
+    - host: 'yandex.your.domain'
