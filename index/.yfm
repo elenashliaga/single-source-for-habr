@@ -1,1 +1,8 @@
 langs: ['ru','en']
+apply-presets: "true"
+allowHTML: "true"
+
+docs-viewer:
+  langs: ['ru','en']
+  embed:
+    - host: 'your.domain'
