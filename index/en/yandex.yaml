@@ -1,0 +1,27 @@
+fullScreen: true
+blocks:
+  - type: 'card-layout-block'
+    title: "Портал документации"
+    background:
+    light:
+      color: '#8C7798'
+      fullWidth: false
+    dark:
+      color: '#8C7798'
+      fullWidth: false
+    children:
+      - type: 'basic-card'
+        url: 'https://yandex.your.domain/en/index.html'
+        title: 'Обзор платформы'
+        text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        icon: './_images/all.png'
+      - type: 'basic-card'
+        url: 'https://yandex.your.domain/en/developer/main.html'
+        title: 'Разработчикам'
+        text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        icon: '_images/developer.png'
+      - type: 'basic-card'
+        url: 'https://yandex.your.domain/en/manager/main.html'
+        title: 'Менеджерам'
+        text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+        icon: '_images/manager.png'

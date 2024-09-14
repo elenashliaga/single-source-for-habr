@@ -1,0 +1,7 @@
+title: "Менеджерам"
+href: main.md
+items:
+  - name: С чего начать
+    href: ../developer/main.md
+  - name: Как выложить мем
+    href: meme-out.md

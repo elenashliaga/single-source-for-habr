@@ -1,0 +1,5 @@
+default:
+  locale: en
+
+ru:
+  locale: ru

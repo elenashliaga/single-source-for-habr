@@ -1,0 +1,20 @@
+title: "Документация"
+href: index.md
+items:
+  - name: О сервисе
+    href: index.md
+    when: audience == 'platform'
+  - name: Роли пользователей
+    href: roles.md
+    when: audience == 'platform'
+  - name: Менеджерам
+    href: manager/main.md
+    when: audience == 'manager'
+    include:
+      path: manager/toc.yaml
+  - name: Разработчикам
+    href: developer/main.md
+    when: audience == 'developer'
+    include:
+      path: developer/toc.yaml
+  

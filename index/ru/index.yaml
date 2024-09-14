@@ -1,0 +1,27 @@
+fullScreen: true
+blocks:
+  - type: 'header-block'
+    width: 's'
+    offset: 'default'
+    title: 'Портал документации'
+    resetPaddings: true
+    verticalOffset: 'l'
+    description: 'Платформа для создания технической документации в концепции Docs as Сode с открытым исходным кодом.'
+    background:
+      light:
+        color: '#8C7798'
+        fullWidth: false
+      dark:
+        color: '#8C7798'
+        fullWidth: false
+    buttons:
+      - text: 'Документация. Яндекс'
+        theme: 'raised'
+        size: 'promo'
+        width: 'auto'
+        url: 'https://your.domain/ru/yandex.html'
+      - text: 'Документация. Google'
+        theme: 'raised'
+        size: 'promo'
+        width: 'auto'
+        url: 'https://google.your.domain/ru/index.html'
