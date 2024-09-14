@@ -7,13 +7,7 @@ items:
   - name: Роли пользователей
     href: roles.md
     when: audience == 'platform'
-  - name: Менеджерам
+  - include: { mode: merge, path: manager/toc.yaml }
     when: audience == 'manager'
-    include:
-      path: manager/toc.yaml
-  - name: Разработчикам
-    href: developer/main.md
+  - include: { mode: merge, path: developer/toc.yaml }
     when: audience == 'developer'
-    include:
-      path: developer/toc.yaml
-  
