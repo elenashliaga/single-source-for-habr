@@ -8,7 +8,6 @@ items:
     href: roles.md
     when: audience == 'platform'
   - name: Менеджерам
-    href: manager/main.md
     when: audience == 'manager'
     include:
       path: manager/toc.yaml
