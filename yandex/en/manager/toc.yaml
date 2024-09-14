@@ -2,6 +2,8 @@ title: "Менеджерам"
 href: main.md
 items:
   - name: С чего начать
-    href: ../developer/main.md
+    href: main.md
+  - name: Теория мемологии
+    href: ../developer/meme-theory.md
   - name: Как выложить мем
     href: meme-out.md
